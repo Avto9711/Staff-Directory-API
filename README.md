@@ -1,1 +1,3 @@
-"# Staff-Directory-API" 
+# Staff-Directory-API
+* Sequalize 
+* Express 
