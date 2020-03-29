@@ -1,21 +1,21 @@
 const {db} =  require('../squalize/index')
 const Sequelize = require('sequelize');
 
-let department = db.define('department',{
-    departmentId: {
+let roles =  db.define("roles",{
+    roleId : {
         type:Sequelize.INTEGER,
         primaryKey: true
     },
     name:{
-        type:Sequelize.STRING
+        type: Sequelize.STRING
     },
-    code:{
-        type:Sequelize.INTEGER
+    description: {
+        type: Sequelize.STRING
     },
-    deleted:{
+    deleted: {
         type: Sequelize.BOOLEAN,
         allowNull:true
     }
-}) 
+});
 
-module.exports = department;
+module.exports = roles;
