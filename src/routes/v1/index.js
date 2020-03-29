@@ -9,4 +9,5 @@ module.exports = app => {
     app.use('/api/v1/departments', departmentController);
     app.use('/api/v1/roles', rolesController);
     app.use('/api/v1/employees', employeeController);
+    
 };
