@@ -1,4 +1,4 @@
-const {department} =  require('../../../model/department')
+const department =  require('../../../model/department')
 const router = require('express').Router();
 
 

@@ -1,4 +1,4 @@
-const {roles} =  require('../../../model/role')
+const roles =  require('../../../model/role')
 const router = require('express').Router();
 
 
